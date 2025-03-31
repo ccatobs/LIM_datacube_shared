@@ -1,5 +1,8 @@
 """
 A collection of functions for modifying data cube
+
+Author: Ankur Dev (adev@astro.uni-bonn.de)
+Last Updated: March 2025
 """
 
 def rebin_frequency_axis(tomo_data, bin_size=3):
