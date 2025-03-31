@@ -5,6 +5,10 @@ Author: Ankur Dev (adev@astro.uni-bonn.de)
 Last Updated: March 2025
 """
 
+# Imports
+import numpy as np
+from astropy.convolution import convolve
+
 def rebin_frequency_axis(tomo_data, bin_size=3):
     """
     Rebins the frequency axis of a 3D data cube by averaging over bin_size slices.
